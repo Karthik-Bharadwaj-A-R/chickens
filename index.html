@@ -10,15 +10,17 @@
 </head>
 <body>
     <h1>Chickens!</h1>
-    <p>
-        A chicken is a bird. One of the features 
-        that differentiate it from most other 
-        birds is that it has a comb and two wattles. 
-        The comb is the red appendage on the top of 
-        the head, and the wattles are the two 
-        appendages under the chin. These are 
-        secondary sexual characteristics and are 
-        more prominent in the male.
-    </p>
+   <svg viewBox="0 0 600 300">
+            <!-- Symbol-->
+            <symbol id="s-text">
+              <text text-anchor="middle" x="50%" y="50%" dy=".35em">Chickens!</text>
+            </symbol>
+            <!-- Duplicate symbols-->
+            <use class="text" xlink:href="#s-text"></use>
+            <use class="text" xlink:href="#s-text"></use>
+            <use class="text" xlink:href="#s-text"></use>
+            <use class="text" xlink:href="#s-text"></use>
+            <use class="text" xlink:href="#s-text"></use>
+          </svg>
 </body>
 </html>
